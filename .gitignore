@@ -1,0 +1,78 @@
+# 系统文件
+.DS_Store
+Thumbs.db
+.Spotlight-V100
+.Trashes
+
+# Python相关
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# 虚拟环境
+venv/
+env/
+ENV/
+
+# IDE相关
+.idea/
+.vscode/
+*.swp
+*.swo
+*.sublime-workspace
+*.sublime-project
+
+# 日志和临时文件
+*.log
+*.tmp
+*.temp
+.cache/
+logs/
+log/
+
+# 模型文件（可能体积较大）
+# 注意：如果models/和large_models/目录下有大型模型文件，建议忽略
+models/*.h5
+models/*.pb
+models/*.tflite
+models/*.pt
+models/*.pth
+models/*.onnx
+large_models/**/*.h5
+large_models/**/*.pb
+large_models/**/*.tflite
+large_models/**/*.pt
+large_models/**/*.pth
+large_models/**/*.onnx
+
+# 配置文件中的敏感信息
+# 如果有包含API密钥等敏感信息的配置文件，请取消下面的注释
+# config.ini
+# secrets.json
+
+# 其他
+.coverage
+htmlcov/
+.pytest_cache/
+.tox/
+.nox/
+.hypothesis/
+.coverage.*
