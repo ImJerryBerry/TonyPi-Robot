@@ -63,9 +63,9 @@
    - 利用视觉大模型识别手势实现人机猜拳
    - [详细文档](large_models/RPS/README.md)
 
-4. **视觉大模型识别景色** (`VLM/`)
+4. **视觉大模型场景识别** (`VLM/`)
    - 利用视觉大模型分析场景内容
-   - [详细文档](large_models/README_VLM.md)
+   - [详细文档](large_models/VLM/README_VLM.md)
 
 ## 环境配置
 
