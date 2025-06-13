@@ -84,3 +84,7 @@
 
 - **操作系统**：Raspberry Pi OS
 - **Python**：Python 3.7.3
+
+## 许可证
+
+本项目仅供个人免费使用，且仅限于学习、教学和研究用途。详细许可条款请见[LICENSE](./LICENSE)文件。
