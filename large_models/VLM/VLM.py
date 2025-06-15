@@ -91,7 +91,9 @@ class VoiceActivatedVision:
         image_uri = f'file://{image_path}'
         messages = [
             {"role": "system", "content": [{"text": "You are a helpful assistant."}]},
-            {"role": "user", "content": [{"image": image_uri}, {"text": "图片里内容是什么？请直接给我结果，使用标点符号分隔句子，每一个分隔的句子一定不能超过8个字，回答语言自然一点，总长度不超过100字"}]}
+            {"role": "user", "content": [{"image": image_uri}, {"text": "图片里内容是什么？请直接给我结果，使用标点符号分隔句子，"
+                                                                        "每一个分隔的句子一定不能超过8个字，"
+                                                                        "回答语言自然一点，总长度不超过100字"}]}
         ]
         try:
             print("正在调用大模型API...")

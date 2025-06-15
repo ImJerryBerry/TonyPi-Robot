@@ -1,8 +1,0 @@
-pyserial
-wave
-webrtcvad
-numpy
-sounddevice
-openai
-librosa
-dashscope
